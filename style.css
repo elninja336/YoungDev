@@ -1,0 +1,45 @@
+body{
+    background-color: rgb(246, 225, 197);
+    background-image: URL("SMZ.JPG");
+    background-repeat:repeat-x repeat-y;
+    background-size:auto;
+    background-attachment: scroll;
+    margin: 0;
+    padding: 0;
+}
+input {
+    padding: 15px;
+    width: 300px;
+    border: none;
+    margin: 4px;
+    border-radius: 10px;
+}
+.container {
+    background-color:rgb(92, 246, 246);
+    backdrop-filter: blur (10px);
+    margin-top: 50px;
+    padding: 10px;
+    border-radius: 20px;
+    width: 450px;
+}
+.label {
+    float: left;
+    border-rightS: 430px;
+}
+button {
+    padding: 10px;
+    width: 325px;
+    border-radius: 10px;
+    border-color: rgb(236, 203, 126);
+    cursor: pointer;
+    margin: 8px;
+}
+.inputs_label {
+    float: left;
+    margin-left: 65px;
+}
+.Remember {
+    float: left;
+    text-align: left;
+    cursor: pointer;
+}
