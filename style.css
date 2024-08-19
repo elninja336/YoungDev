@@ -1,9 +1,10 @@
 body{
     background-color: rgb(246, 225, 197);
     background-image: URL("SMZ.JPG");
-    background-repeat:repeat-x repeat-y;
-    background-size:auto;
+    background-repeat:no-repeat;
+    background-size:cover;
     background-attachment: scroll;
+    background-position:initial;
     margin: 0;
     margin-left: 15px;
     padding: 0;
@@ -39,6 +40,9 @@ button {
     float: left;
     margin-left: 65px;
 }
+.single, .married, .divorse {
+    float: left;
+}
 .Remember {
     float: left;
     text-align: left;
@@ -46,4 +50,7 @@ button {
 }
 h1 {
     
+}
+.body1 {
+    backgroud-image: url("image2.jpg");
 }

@@ -4,32 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>registration form</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        
+    </style>
 </head>
-<body>
-        <div  style="text-align: center;">
+<body class="body1">
+    <center>
+        <div  class="container" style="text-align: center;">
             <form action="">
             <h1>Register user</h1>
-            <label for="Fname">First name</label><br>
-            <input type="text"  required placeholder="Fill First name (example Ali)"><br>
-            <label for="Mname">Middle name</label><br>
+            <label class="inputs_label" for="Fname">First name</label><br>
+            <input type="text"  required placeholder="Fill First name (example Yuthfat)"><br>
+            <label class="inputs_label" for="Mname">Middle name</label><br>
             <input type="text"  required placeholder="Fill Middle name (example Yussuf)"><br>
-            <label for="Lname">Last name</label><br>
+            <label class="inputs_label" for="Lname">Last name</label><br>
             <input type="text"  required placeholder="Fill Last name (example Moh'd)"><br>
-            <label for="email">Email Adress</label><br>
-            <input type="email" id="email" name="email" required placeholder="Fill your email adress (example ali@gmail.com)"><br>
-            <label for="DOB">Date of Birth</label><br>
+            <label class="inputs_label" for="email">Email Adress</label><br>
+            <input type="email" id="email" name="email" required placeholder="Fill your email adress (example yuthfat@gmail.com)"><br>
+            <label class="inputs_label" for="DOB">Date of Birth</label><br>
             <input type="date"><br>
-            <label for="">Your marital status</label><br>
+            <label class="inputs_label" for="">Your marital status</label><br>
             <input type="radio" id="single" name="marital_status">
             <label for="single">Single</label><br>
             <input type="radio" id="married" name="marital_status">
             <label for="married">Married</label><br>
             <input type="radio" id="Divorsed" name="marital_status">
             <label for="Divorsed">Divorsed</label><br>
-            <button type="button">submit</button>
+            <button type="submit">submit</button><br>
+            <p>Already a member?<a href="index.html"> Signup</a></p>
+            
 
             </form>
         </div>
-    
+    </center>
 </body>
 </html>
